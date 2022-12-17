@@ -20,7 +20,7 @@ class Server {
                                  socket.getInputStream()))) {
 
                 String request = reader.readLine();
-                writer.write("Test");
+                writer.write("x^2-16=0");
                 writer.newLine();
                 writer.flush();
 
